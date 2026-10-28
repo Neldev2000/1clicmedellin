@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "version": "2026.10-muestra",
+    "actualizado": "2026-10-22",
+    "moneda": "COP",
+    "es_muestra": true,
+    "aviso_muestra": "Planes y precios de ejemplo, pendientes de aprobación comercial. No constituyen una oferta.",
+    "fuente": "Área comercial de 1clic [•]",
+    "notas": [
+      "precio_mensual en pesos colombianos, sin decimales.",
+      "iva_incluido: true = el precio publicado ya incluye IVA; false = al precio publicado se le suma IVA. [VALIDAR tratamiento del IVA por estrato]",
+      "promocion.desde / promocion.hasta (AAAA-MM-DD): fuera de esa vigencia la promoción no se muestra.",
+      "localidades: \"todas\" o lista de códigos de data/localidades.json.",
+      "Con es_muestra: true el sitio muestra el aviso de precios de ejemplo y no publica datos estructurados de ofertas."
+    ]
+  },
+  "planes": [
+    {
+      "id": "hogar-200",
+      "segmento": "hogar",
+      "nombre": "Internet Hogar 200",
+      "bajada_mbps": 200,
+      "subida_mbps": 200,
+      "precio_mensual": 74900,
+      "iva_incluido": true,
+      "promocion": null,
+      "permanencia": { "aplica": false, "meses": 0, "detalle": null },
+      "instalacion": { "valor": 0, "detalle": "Instalación sin costo" },
+      "consumo": "Sin límite de consumo [•]",
+      "incluye": ["Router Wi-Fi [•]", "Instalación con fecha y técnico asignado", "Soporte técnico en tu municipio"],
+      "localidades": "todas",
+      "destacado": false,
+      "condiciones_url": "/legal/terminos-condiciones.html#ofertas"
+    },
+    {
+      "id": "hogar-300",
+      "segmento": "hogar",
+      "nombre": "Internet Hogar 300",
+      "bajada_mbps": 300,
+      "subida_mbps": 300,
+      "precio_mensual": 89900,
+      "iva_incluido": true,
+      "promocion": {
+        "precio": 79900,
+        "meses": 3,
+        "desde": "2026-10-01",
+        "hasta": "2026-12-31",
+        "condiciones": "Para nuevas instalaciones contratadas dentro de la vigencia. [•]"
+      },
+      "permanencia": { "aplica": false, "meses": 0, "detalle": null },
+      "instalacion": { "valor": 0, "detalle": "Instalación sin costo" },
+      "consumo": "Sin límite de consumo [•]",
+      "incluye": ["Router Wi-Fi [•]", "Instalación con fecha y técnico asignado", "Soporte técnico en tu municipio"],
+      "localidades": "todas",
+      "destacado": true,
+      "condiciones_url": "/legal/terminos-condiciones.html#ofertas"
+    },
+    {
+      "id": "hogar-500",
+      "segmento": "hogar",
+      "nombre": "Internet Hogar 500",
+      "bajada_mbps": 500,
+      "subida_mbps": 500,
+      "precio_mensual": 119900,
+      "iva_incluido": true,
+      "promocion": null,
+      "permanencia": {
+        "aplica": true,
+        "meses": 12,
+        "detalle": "A cambio de la instalación sin costo. Si terminas el contrato antes, pagas el valor proporcional del beneficio recibido. [VALIDAR]"
+      },
+      "instalacion": { "valor": 0, "detalle": "Instalación sin costo con cláusula de permanencia" },
+      "consumo": "Sin límite de consumo [•]",
+      "incluye": ["Router Wi-Fi de doble banda [•]", "Instalación con fecha y técnico asignado", "Soporte técnico en tu municipio"],
+      "localidades": ["SCR", "SFA", "CHI", "CAR", "APT", "TUR"],
+      "destacado": false,
+      "condiciones_url": "/legal/proteccion-usuarios.html#permanencia"
+    },
+    {
+      "id": "negocio-300",
+      "segmento": "negocio",
+      "nombre": "Internet Negocio 300",
+      "bajada_mbps": 300,
+      "subida_mbps": 300,
+      "precio_mensual": 129900,
+      "iva_incluido": false,
+      "promocion": null,
+      "permanencia": { "aplica": false, "meses": 0, "detalle": null },
+      "instalacion": { "valor": 0, "detalle": "Instalación sin costo" },
+      "consumo": "Sin límite de consumo [•]",
+      "incluye": ["Router Wi-Fi para negocio [•]", "Instalación con fecha y técnico asignado", "Atención para negocios por WhatsApp"],
+      "localidades": "todas",
+      "destacado": true,
+      "condiciones_url": "/legal/terminos-condiciones.html#ofertas"
+    },
+    {
+      "id": "negocio-600",
+      "segmento": "negocio",
+      "nombre": "Internet Negocio 600",
+      "bajada_mbps": 600,
+      "subida_mbps": 600,
+      "precio_mensual": 189900,
+      "iva_incluido": false,
+      "promocion": null,
+      "permanencia": { "aplica": false, "meses": 0, "detalle": null },
+      "instalacion": { "valor": 0, "detalle": "Instalación sin costo" },
+      "consumo": "Sin límite de consumo [•]",
+      "incluye": ["Router Wi-Fi para negocio [•]", "Instalación con fecha y técnico asignado", "Atención para negocios por WhatsApp"],
+      "localidades": ["SCR", "SFA", "CHI", "CAR", "APT", "TUR", "NEC"],
+      "destacado": false,
+      "condiciones_url": "/legal/terminos-condiciones.html#ofertas"
+    },
+    {
+      "id": "empresas-dedicado",
+      "segmento": "empresas",
+      "nombre": "Enlace dedicado",
+      "tipo": "dedicado",
+      "descripcion": "Enlace dedicado 1:1 con disponibilidad contratada",
+      "bajada_mbps": null,
+      "subida_mbps": null,
+      "precio_mensual": null,
+      "iva_incluido": null,
+      "promocion": null,
+      "permanencia": null,
+      "instalacion": null,
+      "consumo": null,
+      "incluye": [
+        "Capacidad simétrica dedicada 1:1, a la medida de tu operación",
+        "Disponibilidad contratada y compensación económica por incumplimiento, definidas en el contrato (SLA)",
+        "Diseño y estudio técnico de la conexión sin costo [•]",
+        "Atención empresarial por WhatsApp y correo"
+      ],
+      "localidades": "todas",
+      "destacado": false,
+      "cta": "asesor",
+      "condiciones_url": "/legal/terminos-condiciones.html#ofertas"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "actualizado": "2026-10-22",
+    "estado": "en_medicion",
+    "nota": "Sin indicadores medidos todavía. Se publicarán al completar el primer periodo de reporte. Nunca se rellenan con valores estimados.",
+    "referencia": "Res. CRC 5050 de 2016, Título V [VALIDAR qué indicadores aplican]",
+    "esquema": ["indicador", "descripcion", "periodo", "valor", "unidad", "meta_regulatoria", "fuente", "fecha_publicacion"]
+  },
+  "indicadores": []
+}

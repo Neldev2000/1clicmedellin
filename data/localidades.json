@@ -1,0 +1,16 @@
+[
+  {"codigo": "SCR", "nombre": "San Cristóbal", "nombre_completo": "San Cristóbal (Medellín)", "tipo": "Corregimiento de Medellín", "tramo": "T1", "departamento": "Antioquia", "centro": [6.2783, -75.6375], "zoom": 14, "estado_general": "disponible"},
+  {"codigo": "PAL", "nombre": "San Sebastián de Palmitas", "nombre_completo": "San Sebastián de Palmitas (Medellín)", "tipo": "Corregimiento de Medellín", "tramo": "T1", "departamento": "Antioquia", "centro": [6.3439, -75.6908], "zoom": 15, "estado_general": "en_construccion"},
+  {"codigo": "SJE", "nombre": "San Jerónimo", "nombre_completo": "San Jerónimo", "tipo": "Municipio", "tramo": "T1", "departamento": "Antioquia", "centro": [6.4427, -75.7279], "zoom": 15, "estado_general": "proximamente"},
+  {"codigo": "SFA", "nombre": "Santa Fe de Antioquia", "nombre_completo": "Santa Fe de Antioquia", "tipo": "Municipio", "tramo": "T1", "departamento": "Antioquia", "centro": [6.5565, -75.828], "zoom": 15, "estado_general": "en_construccion"},
+  {"codigo": "GIR", "nombre": "Giraldo", "nombre_completo": "Giraldo", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [6.6805, -75.9534], "zoom": 16, "estado_general": "proximamente"},
+  {"codigo": "CNG", "nombre": "Cañasgordas", "nombre_completo": "Cañasgordas", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [6.752, -76.0262], "zoom": 15, "estado_general": "proximamente"},
+  {"codigo": "UMT", "nombre": "Uramita", "nombre_completo": "Uramita", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [6.8993, -76.1742], "zoom": 16, "estado_general": "proximamente"},
+  {"codigo": "DAB", "nombre": "Dabeiba", "nombre_completo": "Dabeiba", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [7.0015, -76.2666], "zoom": 15, "estado_general": "en_construccion"},
+  {"codigo": "MUT", "nombre": "Mutatá", "nombre_completo": "Mutatá", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [7.2441, -76.4365], "zoom": 15, "estado_general": "proximamente"},
+  {"codigo": "CHI", "nombre": "Chigorodó", "nombre_completo": "Chigorodó", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [7.6662, -76.6767], "zoom": 14, "estado_general": "disponible"},
+  {"codigo": "CAR", "nombre": "Carepa", "nombre_completo": "Carepa", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [7.7585, -76.6532], "zoom": 14, "estado_general": "disponible"},
+  {"codigo": "APT", "nombre": "Apartadó", "nombre_completo": "Apartadó", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [7.8849, -76.6227], "zoom": 14, "estado_general": "disponible"},
+  {"codigo": "TUR", "nombre": "Turbo", "nombre_completo": "Turbo", "tipo": "Distrito portuario", "tramo": "T2", "departamento": "Antioquia", "centro": [8.0953, -76.729], "zoom": 14, "estado_general": "disponible"},
+  {"codigo": "NEC", "nombre": "Necoclí", "nombre_completo": "Necoclí", "tipo": "Municipio", "tramo": "T2", "departamento": "Antioquia", "centro": [8.4243, -76.784], "zoom": 15, "estado_general": "en_construccion"}
+]

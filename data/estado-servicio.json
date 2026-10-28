@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "actualizado": "2026-10-22T08:00:00-05:00",
+    "fuente": "Centro de operación de red de 1clic [•]",
+    "esquema_incidente": ["id", "tramo", "municipios", "titulo", "descripcion", "estado", "inicio", "fin_estimado", "actualizado"]
+  },
+  "incidentes": [],
+  "mantenimientos": []
+}
